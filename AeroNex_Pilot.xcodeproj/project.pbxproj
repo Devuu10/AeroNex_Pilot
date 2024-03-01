@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD8830612B9199F50095F4CB /* pilotProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8830602B9199F50095F4CB /* pilotProfile.swift */; };
+		BDD625B82B90502B00207320 /* AeroNex_PilotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625B72B90502B00207320 /* AeroNex_PilotApp.swift */; };
+		BDD625BA2B90502B00207320 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625B92B90502B00207320 /* ContentView.swift */; };
+		BDD625BC2B90502E00207320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD625BB2B90502E00207320 /* Assets.xcassets */; };
+		BDD625BF2B90502E00207320 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD625BE2B90502E00207320 /* Preview Assets.xcassets */; };
+		BDD625C62B9050F100207320 /* pilotLoginOrSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625C52B9050F100207320 /* pilotLoginOrSignUp.swift */; };
+		BDD625C82B9051B500207320 /* aeroImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625C72B9051B500207320 /* aeroImg.swift */; };
+		BDD625CA2B90522700207320 /* termsAndCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625C92B90522700207320 /* termsAndCondition.swift */; };
+		BDD625CC2B90535A00207320 /* pilotLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625CB2B90535A00207320 /* pilotLoginPage.swift */; };
+		BDD625CE2B90550200207320 /* pilotSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625CD2B90550200207320 /* pilotSignUp.swift */; };
+		BDD625DC2B90565900207320 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BDD625DB2B90565900207320 /* FirebaseAuth */; };
+		BDD625DE2B90565900207320 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BDD625DD2B90565900207320 /* FirebaseDatabase */; };
+		BDD625E02B90565900207320 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BDD625DF2B90565900207320 /* FirebaseFirestore */; };
+		BDD625E22B90565900207320 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BDD625E12B90565900207320 /* FirebaseStorage */; };
+		BDD625E42B90577E00207320 /* droneCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625E32B90577E00207320 /* droneCategories.swift */; };
+		BDD625E62B90606600207320 /* citySelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625E52B90606600207320 /* citySelection.swift */; };
+		BDD625E82B90630D00207320 /* dropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625E72B90630D00207320 /* dropdown.swift */; };
+		BDD625EA2B90742700207320 /* portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625E92B90742700207320 /* portfolio.swift */; };
+		BDD625EC2B907A3E00207320 /* invitationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625EB2B907A3E00207320 /* invitationCard.swift */; };
+		BDD625EE2B907A9300207320 /* invitationCard2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625ED2B907A9300207320 /* invitationCard2.swift */; };
+		BDD625F02B907AD700207320 /* invitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625EF2B907AD700207320 /* invitationView.swift */; };
+		BDD625F22B907CCD00207320 /* pilotBookingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625F12B907CCD00207320 /* pilotBookingDetails.swift */; };
+		BDD625F42B909ECF00207320 /* bookingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625F32B909ECF00207320 /* bookingCard.swift */; };
+		BDD625F62B91954800207320 /* bookingCard2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625F52B91954800207320 /* bookingCard2.swift */; };
+		BDD625F82B9196AB00207320 /* bookingCard3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625F72B9196AB00207320 /* bookingCard3.swift */; };
+		BDD625FA2B91970800207320 /* pilotBookings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD625F92B91970800207320 /* pilotBookings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD8830602B9199F50095F4CB /* pilotProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pilotProfile.swift; sourceTree = "<group>"; };
+		BDD625B42B90502B00207320 /* AeroNex_Pilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AeroNex_Pilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD625B72B90502B00207320 /* AeroNex_PilotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeroNex_PilotApp.swift; sourceTree = "<group>"; };
+		BDD625B92B90502B00207320 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDD625BB2B90502E00207320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDD625BE2B90502E00207320 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDD625C52B9050F100207320 /* pilotLoginOrSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pilotLoginOrSignUp.swift; sourceTree = "<group>"; };
+		BDD625C72B9051B500207320 /* aeroImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aeroImg.swift; sourceTree = "<group>"; };
+		BDD625C92B90522700207320 /* termsAndCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = termsAndCondition.swift; sourceTree = "<group>"; };
+		BDD625CB2B90535A00207320 /* pilotLoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pilotLoginPage.swift; sourceTree = "<group>"; };
+		BDD625CD2B90550200207320 /* pilotSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pilotSignUp.swift; sourceTree = "<group>"; };
+		BDD625E32B90577E00207320 /* droneCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = droneCategories.swift; sourceTree = "<group>"; };
+		BDD625E52B90606600207320 /* citySelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = citySelection.swift; sourceTree = "<group>"; };
+		BDD625E72B90630D00207320 /* dropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropdown.swift; sourceTree = "<group>"; };
+		BDD625E92B90742700207320 /* portfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = portfolio.swift; sourceTree = "<group>"; };
+		BDD625EB2B907A3E00207320 /* invitationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invitationCard.swift; sourceTree = "<group>"; };
+		BDD625ED2B907A9300207320 /* invitationCard2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invitationCard2.swift; sourceTree = "<group>"; };
+		BDD625EF2B907AD700207320 /* invitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invitationView.swift; sourceTree = "<group>"; };
+		BDD625F12B907CCD00207320 /* pilotBookingDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pilotBookingDetails.swift; sourceTree = "<group>"; };
+		BDD625F32B909ECF00207320 /* bookingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookingCard.swift; sourceTree = "<group>"; };
+		BDD625F52B91954800207320 /* bookingCard2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookingCard2.swift; sourceTree = "<group>"; };
+		BDD625F72B9196AB00207320 /* bookingCard3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookingCard3.swift; sourceTree = "<group>"; };
+		BDD625F92B91970800207320 /* pilotBookings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pilotBookings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDD625B12B90502B00207320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD625DE2B90565900207320 /* FirebaseDatabase in Frameworks */,
+				BDD625E22B90565900207320 /* FirebaseStorage in Frameworks */,
+				BDD625DC2B90565900207320 /* FirebaseAuth in Frameworks */,
+				BDD625E02B90565900207320 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD8830592B9197D80095F4CB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BD88305E2B9198A20095F4CB /* Llogin */,
+				BD88305D2B91987F0095F4CB /* ccitySelection */,
+				BD88305C2B91984F0095F4CB /* pilotBookings */,
+				BD88305A2B9197FC0095F4CB /* invitationView */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		BD88305A2B9197FC0095F4CB /* invitationView */ = {
+			isa = PBXGroup;
+			children = (
+				BDD625EB2B907A3E00207320 /* invitationCard.swift */,
+				BDD625ED2B907A9300207320 /* invitationCard2.swift */,
+			);
+			name = invitationView;
+			sourceTree = "<group>";
+		};
+		BD88305C2B91984F0095F4CB /* pilotBookings */ = {
+			isa = PBXGroup;
+			children = (
+				BDD625F32B909ECF00207320 /* bookingCard.swift */,
+				BDD625F52B91954800207320 /* bookingCard2.swift */,
+				BDD625F72B9196AB00207320 /* bookingCard3.swift */,
+			);
+			name = pilotBookings;
+			sourceTree = "<group>";
+		};
+		BD88305D2B91987F0095F4CB /* ccitySelection */ = {
+			isa = PBXGroup;
+			children = (
+				BDD625E72B90630D00207320 /* dropdown.swift */,
+			);
+			name = ccitySelection;
+			sourceTree = "<group>";
+		};
+		BD88305E2B9198A20095F4CB /* Llogin */ = {
+			isa = PBXGroup;
+			children = (
+				BDD625C72B9051B500207320 /* aeroImg.swift */,
+				BDD625C92B90522700207320 /* termsAndCondition.swift */,
+			);
+			name = Llogin;
+			sourceTree = "<group>";
+		};
+		BD88305F2B9198DF0095F4CB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BDD625C52B9050F100207320 /* pilotLoginOrSignUp.swift */,
+				BDD625CD2B90550200207320 /* pilotSignUp.swift */,
+				BDD625CB2B90535A00207320 /* pilotLoginPage.swift */,
+				BDD625E32B90577E00207320 /* droneCategories.swift */,
+				BDD625E52B90606600207320 /* citySelection.swift */,
+				BDD625EF2B907AD700207320 /* invitationView.swift */,
+				BD8830602B9199F50095F4CB /* pilotProfile.swift */,
+				BDD625F92B91970800207320 /* pilotBookings.swift */,
+				BDD625F12B907CCD00207320 /* pilotBookingDetails.swift */,
+				BDD625E92B90742700207320 /* portfolio.swift */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		BDD625AB2B90502B00207320 = {
+			isa = PBXGroup;
+			children = (
+				BD88305F2B9198DF0095F4CB /* Screens */,
+				BD8830592B9197D80095F4CB /* Components */,
+				BDD625B62B90502B00207320 /* AeroNex_Pilot */,
+				BDD625B52B90502B00207320 /* Products */,
+				BDD625DA2B90565900207320 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDD625B52B90502B00207320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDD625B42B90502B00207320 /* AeroNex_Pilot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDD625B62B90502B00207320 /* AeroNex_Pilot */ = {
+			isa = PBXGroup;
+			children = (
+				BDD625B72B90502B00207320 /* AeroNex_PilotApp.swift */,
+				BDD625B92B90502B00207320 /* ContentView.swift */,
+				BDD625BB2B90502E00207320 /* Assets.xcassets */,
+				BDD625BD2B90502E00207320 /* Preview Content */,
+			);
+			path = AeroNex_Pilot;
+			sourceTree = "<group>";
+		};
+		BDD625BD2B90502E00207320 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDD625BE2B90502E00207320 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDD625DA2B90565900207320 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDD625B32B90502B00207320 /* AeroNex_Pilot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD625C22B90502E00207320 /* Build configuration list for PBXNativeTarget "AeroNex_Pilot" */;
+			buildPhases = (
+				BDD625B02B90502B00207320 /* Sources */,
+				BDD625B12B90502B00207320 /* Frameworks */,
+				BDD625B22B90502B00207320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AeroNex_Pilot;
+			packageProductDependencies = (
+				BDD625DB2B90565900207320 /* FirebaseAuth */,
+				BDD625DD2B90565900207320 /* FirebaseDatabase */,
+				BDD625DF2B90565900207320 /* FirebaseFirestore */,
+				BDD625E12B90565900207320 /* FirebaseStorage */,
+			);
+			productName = AeroNex_Pilot;
+			productReference = BDD625B42B90502B00207320 /* AeroNex_Pilot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDD625AC2B90502B00207320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BDD625B32B90502B00207320 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = BDD625AF2B90502B00207320 /* Build configuration list for PBXProject "AeroNex_Pilot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDD625AB2B90502B00207320;
+			packageReferences = (
+				BDD625CF2B9055FD00207320 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = BDD625B52B90502B00207320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDD625B32B90502B00207320 /* AeroNex_Pilot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDD625B22B90502B00207320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD625BF2B90502E00207320 /* Preview Assets.xcassets in Resources */,
+				BDD625BC2B90502E00207320 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDD625B02B90502B00207320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD625FA2B91970800207320 /* pilotBookings.swift in Sources */,
+				BDD625C82B9051B500207320 /* aeroImg.swift in Sources */,
+				BDD625CC2B90535A00207320 /* pilotLoginPage.swift in Sources */,
+				BDD625EE2B907A9300207320 /* invitationCard2.swift in Sources */,
+				BDD625EC2B907A3E00207320 /* invitationCard.swift in Sources */,
+				BDD625E62B90606600207320 /* citySelection.swift in Sources */,
+				BDD625C62B9050F100207320 /* pilotLoginOrSignUp.swift in Sources */,
+				BDD625BA2B90502B00207320 /* ContentView.swift in Sources */,
+				BDD625F82B9196AB00207320 /* bookingCard3.swift in Sources */,
+				BDD625F02B907AD700207320 /* invitationView.swift in Sources */,
+				BDD625CA2B90522700207320 /* termsAndCondition.swift in Sources */,
+				BDD625B82B90502B00207320 /* AeroNex_PilotApp.swift in Sources */,
+				BDD625E42B90577E00207320 /* droneCategories.swift in Sources */,
+				BDD625E82B90630D00207320 /* dropdown.swift in Sources */,
+				BDD625F22B907CCD00207320 /* pilotBookingDetails.swift in Sources */,
+				BDD625EA2B90742700207320 /* portfolio.swift in Sources */,
+				BDD625CE2B90550200207320 /* pilotSignUp.swift in Sources */,
+				BDD625F42B909ECF00207320 /* bookingCard.swift in Sources */,
+				BD8830612B9199F50095F4CB /* pilotProfile.swift in Sources */,
+				BDD625F62B91954800207320 /* bookingCard2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BDD625C02B90502E00207320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDD625C12B90502E00207320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDD625C32B90502E00207320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AeroNex_Pilot/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IOS.AeroNex-Pilot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDD625C42B90502E00207320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AeroNex_Pilot/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IOS.AeroNex-Pilot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDD625AF2B90502B00207320 /* Build configuration list for PBXProject "AeroNex_Pilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD625C02B90502E00207320 /* Debug */,
+				BDD625C12B90502E00207320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD625C22B90502E00207320 /* Build configuration list for PBXNativeTarget "AeroNex_Pilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD625C32B90502E00207320 /* Debug */,
+				BDD625C42B90502E00207320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BDD625CF2B9055FD00207320 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BDD625DB2B90565900207320 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDD625CF2B9055FD00207320 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BDD625DD2B90565900207320 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDD625CF2B9055FD00207320 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		BDD625DF2B90565900207320 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDD625CF2B9055FD00207320 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		BDD625E12B90565900207320 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDD625CF2B9055FD00207320 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BDD625AC2B90502B00207320 /* Project object */;
+}
